@@ -1,0 +1,26 @@
+'solc --version' running
+'solc ERC20_flat.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,/home/web/audit_test' running
+
+Compiled with solc
+Number of lines: 596 (+ 0 in dependencies, + 0 in tests)
+Number of assembly lines: 0
+Number of contracts: 7 (+ 0 in dependencies, + 0 tests) 
+
+Number of optimization issues: 0
+Number of informational issues: 6
+Number of low issues: 0
+Number of medium issues: 0
+Number of high issues: 0
+
+ERCs: ERC20
+
++----------------+-------------+-------+--------------------+--------------+----------+
+|      Name      | # functions |  ERCS |     ERC20 info     | Complex code | Features |
++----------------+-------------+-------+--------------------+--------------+----------+
+| IERC721Errors  |      0      |       |                    |      No      |          |
+| IERC1155Errors |      0      |       |                    |      No      |          |
+|     ERC20      |      29     | ERC20 |     No Minting     |      No      |          |
+|                |             |       | Approve Race Cond. |              |          |
+|                |             |       |                    |              |          |
++----------------+-------------+-------+--------------------+--------------+----------+
+ERC20_flat.sol analyzed (7 contracts)
