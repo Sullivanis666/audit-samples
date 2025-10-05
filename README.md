@@ -50,6 +50,12 @@ audit-samples/
 
 ---
 
+## 📖 Notes & Guides
+
+- [Note: Quick Triage of Smart Contracts](notes/triage-note.md)
+
+---
+
 ## ⚠️ Disclaimer
 
 - All contracts and reports in this repository are **publicly available samples**.  
